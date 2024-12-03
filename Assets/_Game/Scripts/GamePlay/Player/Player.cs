@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
 
     [SerializeField] private Animator animator;
     [SerializeField] private Transform avatar;
+    [SerializeField] private Transform directTF;
+
     private string animName;
 
     // Start is called before the first frame update
@@ -35,7 +37,11 @@ public class Player : MonoBehaviour
         {
             ChangeAnim(Constant.ANIM_RUN);
             if(direct.x != 0)
+            {
                 ChangeFacing(direct.x > 0);
+            }
+
+            directTF.up = direct;
         }
         else
         {
@@ -59,6 +65,6 @@ public class Player : MonoBehaviour
 
     private void ChangeFacing(bool isRight)
     {
-        avatar.localRotation = isRight ? Quaternion.identity : Quaternion.Euler(180f, 180f, 0f);
+        avatar.localRotation = isRight ? Quaternion.identity : Quaternion.Euler(0f, 180f, 0f);
     }
 }
