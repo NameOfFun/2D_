@@ -13,6 +13,9 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform directTF;
 
     [SerializeField] WeaponBase currentWeapon;
+
+    [SerializeField] private WeaponDataSO weaponDataSO;
+    [SerializeField] private Transform weaponHolder;
     private string animName;
 
     private List<Character> targets = new List<Character>();
@@ -20,7 +23,8 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        ChangeWeapon(WeaponType.MeachineGun);
+        ChangeWeapon(WeaponType.Pistol);
     }
 
     // Update is called once per frame
@@ -120,6 +124,16 @@ public class Player : MonoBehaviour
             }
         }
         return c;
+    }
+
+    public void ChangeWeapon(WeaponType weaponType)
+    {
+        if(currentWeapon != null)
+        {
+            Destroy(currentWeapon.gameObject);
+        }
+
+        currentWeapon = Instantiate(weaponDataSO.GetWeapon(weaponType), weaponHolder);
     }
     #endregion
 }

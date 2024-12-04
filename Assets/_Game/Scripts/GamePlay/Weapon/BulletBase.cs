@@ -48,7 +48,10 @@ public class BulletBase : MonoBehaviour
             if (c != null)
             {
                 // TODO: something
-                OnDespawn();
+                isActive = false;
+                Invoke(nameof(OnDespawn), 0.5f);
+
+                //OnDespawn();
             }
         }
     }
