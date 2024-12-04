@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: MinimalItemsIcons_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 407
+        width: 97
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aeb82ff40496994fae3c1d53a1fca16
+      internalID: 154593308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalItemsIcons_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 393
+        width: 123
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b271b07ba806a834eb8c39ed29ecbfb4
+      internalID: 1460974913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalItemsIcons_2
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 406
+        width: 70
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b030dd91463161b4d9b87d2eaaccfbbd
+      internalID: -796340384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalItemsIcons_3
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 391
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5e1c497807f2c49a7cf4e3312ac73f
+      internalID: 1014331108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalItemsIcons_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 271
+        width: 107
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e4af0dc61114f4ebb1bb72afecd69f
+      internalID: 1843363292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalItemsIcons_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 257
+        width: 96
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bce5df39c23dd4f8d668a6a4922bd9
+      internalID: 662783779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalItemsIcons_6
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 263
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2fa5b137d66b6428778ec47d8b27e0
+      internalID: 1023198905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalItemsIcons_7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 264
+        width: 58
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cc97dd83bcc3f40b608bbc62957898
+      internalID: 379558776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalItemsIcons_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 142
+        width: 87
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5517c578a73bc54ea40220ac75f186e
+      internalID: 619525597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalItemsIcons_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 131
+        width: 102
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f06cfc2dd2372f4883ff1540e8a33fe
+      internalID: 1040296597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalItemsIcons_10
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 143
+        width: 91
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627b1bf9ef1da0f499c059c6f9456433
+      internalID: 1436767658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalItemsIcons_11
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 140
+        width: 102
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c005a8a39027a344397bed93e70c7034
+      internalID: -1866610204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalItemsIcons_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 17
+        width: 106
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5412820eb3d8e734fbb5b4535ba42bcd
+      internalID: -557400356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalItemsIcons_13
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 8
+        width: 115
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3db6f2563e4d8e4fb1668e1cf673658
+      internalID: 735416528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalItemsIcons_14
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 20
+        width: 116
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87091c0745708e64c9ff5349c72a4600
+      internalID: 600994364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalItemsIcons_15
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 15
+        width: 114
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824f36b5861992d4193ab3d068193fe1
+      internalID: 91915963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +455,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MinimalItemsIcons_0: 154593308
+      MinimalItemsIcons_1: 1460974913
+      MinimalItemsIcons_10: 1436767658
+      MinimalItemsIcons_11: -1866610204
+      MinimalItemsIcons_12: -557400356
+      MinimalItemsIcons_13: 735416528
+      MinimalItemsIcons_14: 600994364
+      MinimalItemsIcons_15: 91915963
+      MinimalItemsIcons_2: -796340384
+      MinimalItemsIcons_3: 1014331108
+      MinimalItemsIcons_4: 1843363292
+      MinimalItemsIcons_5: 662783779
+      MinimalItemsIcons_6: 1023198905
+      MinimalItemsIcons_7: 379558776
+      MinimalItemsIcons_8: 619525597
+      MinimalItemsIcons_9: 1040296597
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

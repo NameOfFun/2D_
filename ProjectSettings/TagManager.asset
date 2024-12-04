@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Character
+    uniqueID: 1185151673
+    locked: 0
+  - name: Gun
+    uniqueID: 2524451933
+    locked: 0
+  - name: UI
+    uniqueID: 999955915
+    locked: 0

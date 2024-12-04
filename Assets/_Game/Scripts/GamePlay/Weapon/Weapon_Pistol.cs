@@ -2,17 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Weapon_Pistol : MonoBehaviour
+public class Weapon_Pistol : WeaponBase
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] Transform bulletPoint;
+    [SerializeField] BulletBase bulletBase;
 
-    // Update is called once per frame
-    void Update()
+    protected override void Shoot()
     {
-        
+        Instantiate(bulletBase, bulletPoint.position, bulletPoint.rotation).OnInit(10);
     }
 }

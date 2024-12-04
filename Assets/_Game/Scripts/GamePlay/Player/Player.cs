@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,8 +12,11 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform avatar;
     [SerializeField] private Transform directTF;
 
+    [SerializeField] WeaponBase currentWeapon;
     private string animName;
 
+    private List<Character> targets = new List<Character>();
+    private Character target; 
     // Start is called before the first frame update
     void Start()
     {
@@ -29,8 +33,12 @@ public class Player : MonoBehaviour
         
         ChangeDirect(direct);
         MoveDirect(direct);
+        UpdateTarget();
+
+        OnAttack();
     }
 
+    #region Control
     public void ChangeDirect(Vector2 direct)
     {
         if(direct.sqrMagnitude > 0.1f)
@@ -48,6 +56,7 @@ public class Player : MonoBehaviour
             ChangeAnim(Constant.ANIM_IDLE);
         }
     }
+
     public void MoveDirect(Vector2 direct) 
     {
         rd.velocity = direct * moveSpeed;
@@ -67,4 +76,50 @@ public class Player : MonoBehaviour
     {
         avatar.localRotation = isRight ? Quaternion.identity : Quaternion.Euler(0f, 180f, 0f);
     }
+    #endregion
+
+    #region Gun
+    public void OnAttack()
+    {
+        currentWeapon.OnAttack();
+    }
+
+
+    private void UpdateTarget()
+    {
+        target = GetTargetNearest();
+
+        currentWeapon.SetTarget(target == null ? (directTF.up + transform.position) : (target.transform.position));
+    }
+
+    public void AddTarget(Character c)
+    {
+        targets.Add(c);
+    }
+
+    public void RemoveTarget(Character c)
+    {
+        targets.Remove(c);
+    }
+
+    private Character GetTargetNearest()
+    {
+        Character c = null;
+        if (targets.Count > 0)
+        {
+            c = targets[0];
+            float distancce = Vector2.Distance(c.transform.position, transform.position);
+            for (int i = 1; i < targets.Count; i++)
+            {
+                float dis = Vector2.Distance(targets[i].transform.position, transform.position);
+                if (dis < distancce)
+                {
+                    distancce = dis;
+                    c = targets[i];
+                }
+            }
+        }
+        return c;
+    }
+    #endregion
 }
